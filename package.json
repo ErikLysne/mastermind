@@ -1,5 +1,5 @@
 {
-  "name": "mastermind",
+  "name": "@mastermind/root",
   "private": true,
   "scripts": {
     "build": "turbo build",
