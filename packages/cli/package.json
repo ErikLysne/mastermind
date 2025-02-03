@@ -1,5 +1,5 @@
 {
-  "name": "@mastermind/cli",
+  "name": "@mastermind-ts/cli",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -10,15 +10,21 @@
   },
   "scripts": {
     "dev": "vite-node ./src/cli.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "test:type-check": "tsc --noEmit",
+    "test": "pnpm run test:type-check"
   },
   "dependencies": {
     "@inquirer/prompts": "^7.3.1",
-    "@mastermind/game": "workspace:*",
+    "@mastermind-ts/game": "workspace:*",
     "chalk": "^5.4.1"
   },
   "devDependencies": {
+    "@mastermind-ts/typescript-config": "workspace:*",
     "typescript": "^5.7.3",
     "vite-node": "^3.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -1,10 +1,9 @@
 {
-  "extends": "@mastermind/typescript-config/tsconfig.base.json",
+  "extends": "@mastermind-ts/typescript-config/tsconfig.base.json",
   "compilerOptions": {
-    "module": "Preserve",
-    "moduleResolution": "Bundler",
+    "outDir": "./dist",
     "types": ["vitest/globals"]
   },
-  "include": ["src", "test", "examples"],
+  "include": ["src", "test"],
   "exclude": ["node_modules", "dist"]
 }

@@ -4,7 +4,7 @@ import {
   CodePegRow,
   GameState,
   Mastermind
-} from "@mastermind/game";
+} from "@mastermind-ts/game";
 import chalk from "chalk";
 import { codePegColorDisplayMap } from "./code-peg-color-display-map";
 import { generateRandomCodePegColor } from "./generate-random-code-peg-color";

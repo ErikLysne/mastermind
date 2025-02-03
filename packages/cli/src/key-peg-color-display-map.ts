@@ -1,6 +1,6 @@
-import { KeyPegColor } from "@mastermind/game";
+import { KeyPegColor } from "@mastermind-ts/game";
 
 export const keyPegColorDisplayMap: Record<KeyPegColor, string> = {
   [KeyPegColor.BLACK]: "⬛",
-  [KeyPegColor.WHITE]: "⬜",
+  [KeyPegColor.WHITE]: "⬜"
 };

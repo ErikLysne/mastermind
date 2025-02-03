@@ -1,4 +1,4 @@
-import { CodePegColor } from "@mastermind/game";
+import { CodePegColor } from "@mastermind-ts/game";
 
 export const codePegColorDisplayMap: Record<CodePegColor, string> = {
   [CodePegColor.BLACK]: "⚫",
@@ -6,5 +6,5 @@ export const codePegColorDisplayMap: Record<CodePegColor, string> = {
   [CodePegColor.GREEN]: "🟢",
   [CodePegColor.RED]: "🔴",
   [CodePegColor.WHITE]: "⚪",
-  [CodePegColor.YELLOW]: "🟡",
+  [CodePegColor.YELLOW]: "🟡"
 };

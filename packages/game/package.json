@@ -1,5 +1,5 @@
 {
-  "name": "@mastermind/game",
+  "name": "@mastermind-ts/game",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -7,14 +7,21 @@
     ".": "./src/index.ts"
   },
   "scripts": {
-    "test:watch": "vitest watch"
+    "build": "tsc",
+    "test:type-check": "tsc --noEmit",
+    "test:watch": "vitest watch",
+    "test:run": "vitest run",
+    "test": "pnpm run test:type-check && pnpm run test:run"
   },
   "keywords": [],
   "author": "Erik Lysne",
   "license": "ISC",
   "devDependencies": {
-    "@mastermind/typescript-config": "workspace:*",
+    "@mastermind-ts/typescript-config": "workspace:*",
     "typescript": "^5.7.3",
     "vitest": "^3.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
