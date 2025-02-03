@@ -1,0 +1,24 @@
+{
+  "name": "@mastermind/cli",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Erik Lysne",
+  "license": "ISC",
+  "bin": {
+    "mastermind": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "vite-node ./src/cli.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.3.1",
+    "@mastermind/game": "workspace:*",
+    "chalk": "^5.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vite-node": "^3.0.4"
+  }
+}

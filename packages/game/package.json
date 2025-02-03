@@ -1,0 +1,20 @@
+{
+  "name": "@mastermind/game",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test:watch": "vitest watch"
+  },
+  "keywords": [],
+  "author": "Erik Lysne",
+  "license": "ISC",
+  "devDependencies": {
+    "@mastermind/typescript-config": "workspace:*",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.4"
+  }
+}
