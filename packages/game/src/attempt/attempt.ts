@@ -1,6 +1,6 @@
-import { CodePegRow } from "../code-peg-row/code-peg-row";
-import { KeyPegColor } from "../constants/key-peg-color";
-import { KeyPegEvaluator } from "../key-peg-evaluator/key-peg-evaluator";
+import { CodePegRow } from "../code-peg-row/code-peg-row.js";
+import { KeyPegColor } from "../constants/key-peg-color.js";
+import { KeyPegEvaluator } from "../key-peg-evaluator/key-peg-evaluator.js";
 
 export class Attempt {
   private readonly keyPegs: KeyPegColor[] = [];

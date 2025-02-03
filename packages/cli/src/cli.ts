@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { confirm, input } from "@inquirer/prompts";
 import {
   CodePegColor,
@@ -6,10 +7,10 @@ import {
   Mastermind
 } from "@mastermind-ts/game";
 import chalk from "chalk";
-import { codePegColorDisplayMap } from "./code-peg-color-display-map";
-import { generateRandomCodePegColor } from "./generate-random-code-peg-color";
-import { keyPegColorDisplayMap } from "./key-peg-color-display-map";
-import { printInstructions } from "./print-instructions";
+import { codePegColorDisplayMap } from "./code-peg-color-display-map.js";
+import { generateRandomCodePegColor } from "./generate-random-code-peg-color.js";
+import { keyPegColorDisplayMap } from "./key-peg-color-display-map.js";
+import { printInstructions } from "./print-instructions.js";
 
 function getFormattedInputValues(rawInputValue: string): string[] {
   return rawInputValue.split(" ").map((value) => value.toUpperCase());

@@ -5,6 +5,7 @@
   "keywords": [],
   "author": "Erik Lysne",
   "license": "ISC",
+  "type": "module",
   "bin": {
     "mastermind": "./dist/cli.js"
   },

@@ -1,6 +1,6 @@
-import { CodePegRow } from "../code-peg-row/code-peg-row";
-import { CodePegColor } from "../constants/code-peg-color";
-import { Attempt } from "./attempt";
+import { CodePegRow } from "../code-peg-row/code-peg-row.js";
+import { CodePegColor } from "../constants/code-peg-color.js";
+import { Attempt } from "./attempt.js";
 
 describe("Attempt", () => {
   describe("getResult", () => {

@@ -1,4 +1,4 @@
-import { CodePegColor } from "../constants/code-peg-color";
+import { CodePegColor } from "../constants/code-peg-color.js";
 
 export class CodePegRow {
   private readonly codePegs: [

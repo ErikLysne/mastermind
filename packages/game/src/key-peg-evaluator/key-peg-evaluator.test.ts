@@ -1,7 +1,7 @@
-import { CodePegRow } from "../code-peg-row/code-peg-row";
-import { CodePegColor } from "../constants/code-peg-color";
-import { KeyPegColor } from "../constants/key-peg-color";
-import { KeyPegEvaluator } from "./key-peg-evaluator";
+import { CodePegRow } from "../code-peg-row/code-peg-row.js";
+import { CodePegColor } from "../constants/code-peg-color.js";
+import { KeyPegColor } from "../constants/key-peg-color.js";
+import { KeyPegEvaluator } from "./key-peg-evaluator.js";
 
 describe("KeyPegEvaluator", () => {
   describe("computeKeyPegs", () => {

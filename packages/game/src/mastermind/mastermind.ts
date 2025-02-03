@@ -1,7 +1,7 @@
-import { Attempt } from "../attempt/attempt";
-import { CodePegRow } from "../code-peg-row/code-peg-row";
-import { CodePegColor } from "../constants/code-peg-color";
-import { GameState } from "../constants/game-state";
+import { Attempt } from "../attempt/attempt.js";
+import { CodePegRow } from "../code-peg-row/code-peg-row.js";
+import { CodePegColor } from "../constants/code-peg-color.js";
+import { GameState } from "../constants/game-state.js";
 
 export class Mastermind {
   private readonly solution: CodePegRow;

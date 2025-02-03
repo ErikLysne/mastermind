@@ -1,7 +1,7 @@
-import { CodePegRow } from "../code-peg-row/code-peg-row";
-import { CodePegColor } from "../constants/code-peg-color";
-import { GameState } from "../constants/game-state";
-import { Mastermind } from "./mastermind";
+import { CodePegRow } from "../code-peg-row/code-peg-row.js";
+import { CodePegColor } from "../constants/code-peg-color.js";
+import { GameState } from "../constants/game-state.js";
+import { Mastermind } from "./mastermind.js";
 
 describe("Mastermind", () => {
   describe("makeAttempt", () => {

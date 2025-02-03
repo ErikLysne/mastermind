@@ -1,6 +1,6 @@
 import chalk from "chalk";
-import { codePegColorDisplayMap } from "./code-peg-color-display-map";
-import { keyPegColorDisplayMap } from "./key-peg-color-display-map";
+import { codePegColorDisplayMap } from "./code-peg-color-display-map.js";
+import { keyPegColorDisplayMap } from "./key-peg-color-display-map.js";
 
 export function printInstructions(): void {
   console.log(chalk.bold("Welcome to Master Mind!"));
